@@ -1,14 +1,22 @@
-import './App.css';
+import "./App.css";
 //import {Greet} from './components/Greet';
-import { Message } from './components/Message';
+import { ClickHandler } from "./components/ClickHandler";
+import { Message } from "./components/Message";
+import { ParentComponent } from "./components/ParentComponent";
+import { UserGreeting } from "./components/UserGreeting";
+import { NameList } from "./components/NameList";
 function App() {
   return (
     <div className="App">
-    {/* <Greet name = "RDJ" heroName = "Iron Man" />
+      {/* <Greet name = "RDJ" heroName = "Iron Man" />
     <Greet name = "T'Challa" heroName = "Black Panther">
     <h1>Wakanda Forever!</h1>
-    </Greet> */}
-    <Message />
+    </Greet>
+      <Message />
+      <ClickHandler />
+      <ParentComponent />
+      <UserGreeting />*/}
+      <NameList />
     </div>
   );
 }
