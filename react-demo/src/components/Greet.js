@@ -5,4 +5,3 @@ export const Greet = (props) =>
         {props.children}
     </div>
 }
-//export default Greet
