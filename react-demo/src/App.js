@@ -1,10 +1,12 @@
 import "./App.css";
-//import {Greet} from './components/Greet';
+import { Greet } from "./components/Greet";
 import { ClickHandler } from "./components/ClickHandler";
 import { Message } from "./components/Message";
 import { ParentComponent } from "./components/ParentComponent";
 import { UserGreeting } from "./components/UserGreeting";
 import { NameList } from "./components/NameList";
+import { Stylesheet } from "./components/Stylesheet";
+import { Form } from "./components/Form";
 function App() {
   return (
     <div className="App">
@@ -15,8 +17,10 @@ function App() {
       <Message />
       <ClickHandler />
       <ParentComponent />
-      <UserGreeting />*/}
+      <UserGreeting />
       <NameList />
+      <Stylesheet />*/}
+      <Form />
     </div>
   );
 }
