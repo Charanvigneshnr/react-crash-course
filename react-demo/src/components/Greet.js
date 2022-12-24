@@ -1,5 +1,5 @@
-const Greet = () =>
+export const Greet = (props) =>
 {
-    return <h1>Hello Charan!</h1>
+    return <h1>Hello {props.user}!</h1>
 }
-export default Greet
+//export default Greet
