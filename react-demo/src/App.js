@@ -7,6 +7,7 @@ import { UserGreeting } from "./components/UserGreeting";
 import { NameList } from "./components/NameList";
 import { Stylesheet } from "./components/Stylesheet";
 import { Form } from "./components/Form";
+import { PostList } from "./components/PostList";
 function App() {
   return (
     <div className="App">
@@ -19,8 +20,9 @@ function App() {
       <ParentComponent />
       <UserGreeting />
       <NameList />
-      <Stylesheet />*/}
-      <Form />
+      <Stylesheet />
+      <Form />*/}
+      <PostList />
     </div>
   );
 }
